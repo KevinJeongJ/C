@@ -32,12 +32,13 @@ int main()
     cin >> pe;
     cout << "number of participant is " << pe << ".\n";
 
-    double cards[5][pe];
+// cards is 7 for 2 individual cards + 5 common cards
+    double cards[7][pe];
     int c1;
     int cd1;
 
     for (int d = 1; d <= pe; d++)
-        for (int e = 1; e <= 3; e++)
+        for (int e = 1; e <= 2; e++)
         {
             // randomly drawing cards
             c1 = rand() % 16 + 1;
