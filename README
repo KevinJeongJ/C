@@ -1,1 +1,6 @@
-These are some of the C++ codes I have been playing with 
+Game of poker create via C++. 
+There are still number of things to be added in:
+1. calculation of bets (player interaction: continus bet/raises,etc)
+2. calculation of a winning hand with the same strength (pair vs pair) 
+3. calculation of a rake/pot
+etc. 
