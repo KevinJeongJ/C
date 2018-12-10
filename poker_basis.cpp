@@ -12,6 +12,7 @@ winning hand calculation is not made yet.
 #include <cmath>
 #include <vector>
 #include <cstring>
+#include <time.h>
 using namespace std;
 
 int calc_point(double dummycards[][10], double dummycommon[5], int people);
@@ -19,6 +20,8 @@ int calc_point(double dummycards[][10], double dummycommon[5], int people);
 int main()
 {
     cout << "Let's play some Texas Holdem" << endl;
+    srand(time(NULL));
+    // NULL to reset the rand() for each variation
 
     double deck[16][4];
     int i;
